@@ -1,0 +1,165 @@
+/* ----------- footer ------------ */
+
+.container-footer{
+    width: 100%;
+    height: 88vh;
+    background-color:#f3785f;
+    background-image: url('https://as.com/showroom/imagenes/2018/08/06/portada/1533544506_566170_1533544750_noticia_normal.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container-footer .filter{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* .container-footer .filter .row:nth-child(1){
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer .filter .row:nth-child(1) img{
+    width: 30%;
+    margin-top: 50px;
+} */
+
+.container-footer .filter .row:nth-child(1){
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* background-color: burlywood; */
+}
+
+.container-footer .filter .row:nth-child(1) .col-30:nth-child(1){
+    width: 25%;
+    padding: 150px 75px;
+    margin-left: 40px;
+    /* background-color: chartreuse; */
+}
+
+.container-footer .filter .row:nth-child(1) .col-30:nth-child(1) ul{
+    list-style: none;
+}
+
+.container-footer .filter .row:nth-child(1) .col-30:nth-child(1) ul li{
+    padding: 5px 20px;
+    font-family: 'Josefin Sans', sans-serif;;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FCCE62;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    transition: ease-in-out .5s;
+}
+
+.container-footer .filter .row:nth-child(1) .col-30:nth-child(1) ul li:nth-child(1){
+    color: #7048D9;
+}
+
+.container-footer .filter .row:nth-child(1) .col-30:nth-child(1) ul li:hover{
+    color: #7048D9;
+    cursor: pointer;
+}
+
+
+.container-footer .filter .row:nth-child(1) .col-30:nth-child(2){
+    width: 25%;
+    padding: 150px 75px;
+    /* background-color: brown; */
+}
+
+.container-footer .filter .row:nth-child(1) .col-30:nth-child(2) ul{
+    list-style: none;
+}
+
+.container-footer .filter .row:nth-child(1) .col-30:nth-child(2) ul li{
+    padding: 5px 20px;
+    font-family: 'Josefin Sans', sans-serif;;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FCCE62;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    transition: ease-in-out .5s;
+}
+
+.container-footer .filter .row:nth-child(1) .col-30:nth-child(2) ul li:hover{
+    color: #7048D9;
+    cursor: pointer;
+}
+
+.container-footer .filter .row:nth-child(1) .col-30:nth-child(3){
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: cornflowerblue; */
+}
+
+.container-footer .filter .row:nth-child(1) .col-30:nth-child(3) form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.container-footer .filter .row:nth-child(1) .col-30:nth-child(3) form label{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.7rem;
+    margin-bottom: 25px;
+    color: #FCCE62 ;
+}
+
+.container-footer .filter .row:nth-child(1) .col-30:nth-child(3) form input{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 7px 10px;
+    font-size: 1.2rem;
+}
+
+.container-footer .filter .row:nth-child(1) .col-30:nth-child(3) form button{
+    width: 60%;
+    padding: 7px 12px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #FCCE62;
+    color: #7048D9;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.container-footer .filter .row:nth-child(1) .col-30:nth-child(3) form button:hover{
+    background-color:#F2B75E;
+    cursor: pointer;
+}
+
+.container-footer .filter .row:nth-child(2){
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-footer .filter .row:nth-child(2) img{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: -40px;
+    /* background-color: darkgoldenrod; */
+}
+
+.container-footer .filter .row:nth-child(2) span{
+    width: 100%;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #b9aeae;
+    font-size: 12px;
+    margin-top: 30px;
+}
+/* ----------- end footer ------------ */
